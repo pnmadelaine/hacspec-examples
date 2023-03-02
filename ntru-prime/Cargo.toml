@@ -10,10 +10,10 @@ path = "src/ntru-prime.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-hacspec-lib = { path = "../../lib" }
-hacspec-derive = { path = "../../utils/derive" }
-secret_integers = { path = "../../utils/secret-integers" }
-abstract_integers = { path = "../../utils/abstract-integers" }
+hacspec-lib = { path = "../lib" }
+hacspec-derive = { path = "../utils/derive" }
+secret_integers = { path = "../utils/secret-integers" }
+abstract_integers = { path = "../utils/abstract-integers" }
 
 [dev-dependencies]
 serde_json = "1.0"

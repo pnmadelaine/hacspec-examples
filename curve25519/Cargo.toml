@@ -8,10 +8,10 @@ edition = "2018"
 path = "src/curve25519.rs"
 
 [dependencies]
-hacspec-lib = { path = "../../lib" }
+hacspec-lib = { path = "../lib" }
 
 [dev-dependencies]
-hacspec-dev = { path = "../../utils/dev" }
+hacspec-dev = { path = "../utils/dev" }
 criterion = "0.4"
 rand = "0.8"
 

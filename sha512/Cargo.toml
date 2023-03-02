@@ -10,7 +10,7 @@ edition = "2018"
 path = "src/sha512.rs"
 
 [dependencies]
-hacspec-lib = { path = "../../lib" }
+hacspec-lib = { path = "../lib" }
 
 
 

@@ -8,5 +8,5 @@ edition = "2018"
 path = "src/hmac.rs"
 
 [dependencies]
-hacspec-lib = { path = "../../lib" }
+hacspec-lib = { path = "../lib" }
 hacspec-sha256 = { path = "../sha256" }

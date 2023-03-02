@@ -10,4 +10,4 @@ edition = "2021"
 path = "src/lib.rs"
 
 [dependencies]
-hacspec-lib = { path = "../../lib" }
+hacspec-lib = { path = "../lib" }

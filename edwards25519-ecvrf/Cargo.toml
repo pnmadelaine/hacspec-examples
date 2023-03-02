@@ -10,7 +10,7 @@ edition = "2021"
 path = "src/edwards25519-ecvrf.rs"
 
 [dependencies]
-hacspec-lib = { path = "../../lib" }
+hacspec-lib = { path = "../lib" }
 hacspec-sha512 = { path = "../sha512" }
 hacspec-edwards25519 = { path = "../edwards25519" }
 hacspec-edwards25519-hash = { path = "../edwards25519-hash" }

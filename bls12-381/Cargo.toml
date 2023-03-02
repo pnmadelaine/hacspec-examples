@@ -10,7 +10,7 @@ edition = "2018"
 path = "src/bls12-381.rs"
 
 [dependencies]
-hacspec-lib = { path = "../../lib" }
+hacspec-lib = { path = "../lib" }
 
 [dev-dependencies]
 quickcheck = "1"

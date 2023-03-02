@@ -8,7 +8,7 @@ edition = "2018"
 path = "src/merlin.rs"
 
 [dependencies]
-hacspec-lib = { path = "../../lib" }
+hacspec-lib = { path = "../lib" }
 hacspec-sha3 = { path = "../sha3" }
 
 [dev-dependencies]

@@ -8,7 +8,7 @@ edition = "2018"
 path = "src/xor.rs"
 
 [dependencies]
-hacspec-lib = { path = "../../lib" }
+hacspec-lib = { path = "../lib" }
 
 
 

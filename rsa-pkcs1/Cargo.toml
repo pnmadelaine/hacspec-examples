@@ -10,7 +10,7 @@ edition = "2018"
 path = "src/rsa-pkcs1.rs"
 
 [dependencies]
-hacspec-lib = { path = "../../lib" }
+hacspec-lib = { path = "../lib" }
 hacspec-sha256 = { path = "../sha256" }
 
 [dev-dependencies]

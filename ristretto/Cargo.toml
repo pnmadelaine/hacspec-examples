@@ -8,7 +8,7 @@ edition = "2018"
 path = "src/ristretto.rs"
 
 [dependencies]
-hacspec-lib = { path = "../../lib" }
+hacspec-lib = { path = "../lib" }
 
 [dev-dependencies]
 curve25519-dalek-ng = "4"

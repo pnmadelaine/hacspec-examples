@@ -8,9 +8,9 @@ edition = "2018"
 path = "src/linalg.rs"
 
 [dependencies]
-hacspec-lib = { path = "../../lib" }
+hacspec-lib = { path = "../lib" }
 
 [dev-dependencies]
-hacspec-dev = { path = "../../utils/dev" }
+hacspec-dev = { path = "../utils/dev" }
 quickcheck = "1"
 nalgebra = "0.31"
